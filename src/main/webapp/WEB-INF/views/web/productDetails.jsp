@@ -139,12 +139,8 @@
 	
 	function addToCart(){
             var quantity = document.getElementById('qty').value;
-            if(size == null){
-		alert("Vui lòng chọn size cho sản phẩm!");
-            } else{	
-                alert("Thêm thành công!");
-                location.replace("/invee/cart/add-cart/id=" + id + "&size=" + size + "&quantity=" + quantity); 
-            } 
+            alert("Thêm thành công!");
+                location.replace("/invee/cart/add-cart/id=" + id + "&quantity=" + quantity); 
 	}	
     </script> 
 </content>

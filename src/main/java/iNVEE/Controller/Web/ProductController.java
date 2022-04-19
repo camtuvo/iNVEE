@@ -97,14 +97,14 @@ public class ProductController extends BaseController {
 
 	}
 	
-//	//show products detail by id
-//			@RequestMapping(value = "/product-details/{id}")
-//			public ModelAndView ProductDetails(@PathVariable String id){
-//				_mvShare.setViewName("web/productDetails");
-//				_mvShare.addObject("product", ProductService.GetDataProductsByProductId(id));
-//				_mvShare.addObject("productDetails", ProductDetailsService.GetDataProductsByProductId(id));
-//				return _mvShare;
-//			}
+	//show products detail by id
+			@RequestMapping(value = "/product-details/{id}")
+			public ModelAndView ProductDetails(@PathVariable String id){
+				_mvShare.setViewName("web/productDetails");
+				_mvShare.addObject("product", ProductService.GetDataProductsByProductId(id));
+				_mvShare.addObject("productDetails", ProductDetailsService.GetDataProductsByProductId(id));
+				return _mvShare;
+			}
 	// show products in each page
 	@RequestMapping(value = "/product/page={currentPage}")
 	public ModelAndView ProductInEachPage(@PathVariable int currentPage) {

@@ -33,15 +33,15 @@ public class CartController extends BaseController {
 		return mv;
 	}
 
-	@RequestMapping(value = "/cart/add-cart/id={id}&size={size}&quantity={quantity}")
-	public String AddCart(HttpSession session, @PathVariable String id, @PathVariable String size,
+	@RequestMapping(value = "/cart/add-cart/id={id}&quantity={quantity}")
+	public String AddCart(HttpSession session, @PathVariable String id,
 			@PathVariable int quantity) {
 
 		HashMap<String, CartDto> cart = (HashMap<String, CartDto>) session.getAttribute("ShoppingCart");
 		if (cart == null) {
 			cart = new HashMap<String, CartDto>();
 		}
-		cart = cartService.AddCart(id, size, quantity, cart);
+		cart = cartService.AddCart(id, quantity, cart);
 		session.setAttribute("ShoppingCart", cart);
 		session.setAttribute("TotalQuantityCart", cartService.TotalQuantity(cart));
 		session.setAttribute("TotalPriceCart", cartService.TotalPrice(cart));

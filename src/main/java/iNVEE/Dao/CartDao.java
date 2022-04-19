@@ -21,9 +21,9 @@ public class CartDao {
 	@Autowired
 	private ProductDetailDto productDetailDto = new ProductDetailDto();
 
-	public HashMap<String, CartDto> AddCart(String proId, String size, int quantity, HashMap<String, CartDto> cart) {
+	public HashMap<String, CartDto> AddCart(String proId, int quantity, HashMap<String, CartDto> cart) {
 		CartDto itemCart = new CartDto();
-		ProductDetails productDetail = productDetailDto.FindDataProductDetail(proId, size);
+		ProductDetails productDetail = productDetailDto.FindDataProductDetail(proId, "S");
 
 		if (productDetail != null && cart.containsKey(proId)) {
 			itemCart = cart.get(proId);

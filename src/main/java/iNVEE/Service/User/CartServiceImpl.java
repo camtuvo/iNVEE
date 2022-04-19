@@ -13,8 +13,8 @@ public class CartServiceImpl implements ICartService {
 	@Autowired
 	private CartDao cartDao = new CartDao();
 
-	public HashMap<String, CartDto> AddCart(String proId,String size, int quantity, HashMap<String, CartDto> cart) {
-		return cartDao.AddCart(proId, size, quantity, cart);
+	public HashMap<String, CartDto> AddCart(String proId, int quantity, HashMap<String, CartDto> cart) {
+		return cartDao.AddCart(proId, quantity, cart);
 	}
 
 	public HashMap<String, CartDto> EditCart(String proId, int quantity, HashMap<String, CartDto> cart) {
@@ -32,5 +32,10 @@ public class CartServiceImpl implements ICartService {
 	public double TotalPrice(HashMap<String, CartDto> cart) {
 		return cartDao.TotalPrice(cart);
 	}
+
+    @Override
+    public HashMap<String, CartDto> AddCart(String proId, String size, int quantity, HashMap<String, CartDto> cart) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
 
 }
