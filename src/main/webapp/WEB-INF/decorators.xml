@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding ="UTF-8"?>
+<decorator defaultdir="/decorators">
+	<decorator name="web" page= "web.jsp">
+	<pattern>/*</pattern>
+	 </decorator>
+	 
+	 <decorator name="admin" page= "admin.jsp">
+	<pattern>/admin*</pattern>
+	 </decorator>
+	 <decorator name="login of admin" page= "">
+	<pattern>/admin/login</pattern>
+	 </decorator>
+	 <decorator name="Register of admin" page= "">
+	<pattern>/admin/register</pattern>
+	 </decorator>
+	 <decorator name="Register success" page= "">
+	<pattern>/admin/successregister</pattern>
+	 </decorator>
+	<decorator name="Error 404" page= "">
+	<pattern>/admin/404</pattern>
+	 </decorator>
+</decorator>
