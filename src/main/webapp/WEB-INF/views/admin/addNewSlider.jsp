@@ -16,7 +16,7 @@
 				<div class="white-box">
 					<h2 class="box-title">Thêm mới slider</h2>
 					<div class="table-responsive">
-						<form:form action="/saturdayhigh/admin/slider/add" method="POST"
+						<form:form action="/invee/admin/slider/add" method="POST"
 							 modelAttribute="slide"
 							class="form-horizontal form-material">
 							<div class="col-md-6" style="float: left;">
@@ -55,7 +55,7 @@
 
 							<div class="col-md-12" style="float: left;">
 								<button type="submit" class="btn btn-dark">OK</button>
-								<a href="/saturdayhigh/admin/slider" class="btn btn-dark">Hủy</a>
+								<a href="/invee/admin/slider" class="btn btn-dark">Hủy</a>
 
 							</div>
 

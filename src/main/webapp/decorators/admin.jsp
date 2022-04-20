@@ -14,10 +14,10 @@
     <meta name="description"
         content="Ample Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
     <meta name="robots" content="noindex,nofollow">
-    <title>iNVEE | Admin</title>
+    <title>Invee | Admin</title>
     <link rel="canonical" href="https://www.wrappixel.com/templates/ample-admin-lite/" />
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="<c:url value='/template/admin/plugins/images/favicon.png' />">
+    <link rel="icon" type="image/png" sizes="16x16" href="<c:url value='/template/web/img/core-img/favicon.ico' />">
     <!-- Custom CSS -->
     <link href="<c:url value='/template/admin/plugins/bower_components/chartist/dist/chartist.min.css' />" rel="stylesheet">
     <link rel="stylesheet" href="<c:url value='/template/admin/plugins/bower_components/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.css' />">

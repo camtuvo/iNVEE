@@ -47,7 +47,7 @@
 										<td><a class=""
 											href="<c:url value="warehouse/add/${item.ID}" />"><i
 												class="fas fa-plus-circle" aria-hidden="true"></i> </a>
-										<td><a href="/saturdayhigh/admin/product-detail/${item.ID}">Xem chi tiết</a></td>
+										<td><a href="/invee/admin/product-detail/${item.ID}">Xem chi tiết</a></td>
 									</tr>
 								</c:forEach>
 							</tbody>

@@ -42,9 +42,9 @@
 											<c:if test="${item.status == 1}">Hoàn thành</c:if> <c:if
 												test="${item.status == 2}">Hủy</c:if></td>
 										<td><a
-											href="/saturdayhigh/admin/order/order-detail/${item.ID}"><i class="fas fa-eye" aria-hidden="true"></i></a></td>
+											href="/invee/admin/order/order-detail/${item.ID}"><i class="fas fa-eye" aria-hidden="true"></i></a></td>
 										<td><c:if test="${item.status == 0}">
-												<a href="/saturdayhigh/admin/complete-bill/${item.ID}">Hoàn
+												<a href="/invee/admin/complete-bill/${item.ID}">Hoàn
 													thành</a>
 											</c:if></td>
 									</tr>

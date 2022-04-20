@@ -17,7 +17,7 @@
 				<div class="white-box">
 					<div class="user-bg" style="height: 400px;">
 						<img width="100%" alt="user"
-							src="<c:url value='/template/admin/plugins/images/default/person.png'/>">
+							src="<c:url value='/template/admin/plugins/images/default/logo-green.png'/>">
 
 					</div>
 
@@ -30,7 +30,7 @@
 				
 					<div class="card-body">
 					<p>${Status}</p>
-						<form:form action="/saturdayhigh/admin/profile/edit" method="POST"
+						<form:form action="/invee/admin/profile/edit" method="POST"
 							modelAttribute="employee" class="form-horizontal form-material">
 							<div class="form-group mb-4">
 								<label class="col-md-12 p-0">Họ và tên</label>
@@ -87,7 +87,7 @@
 				</div>
 				<div class="form-group mb-4">
 					<div class="col-sm-12">
-						<button class="btn btn-success">Update Profile</button>
+						<button class="btn btn-success">Cập nhật thông tin</button>
 					</div>
 				</div>
 				</form:form>

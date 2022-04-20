@@ -17,7 +17,7 @@
 					<h2 class="box-title">Cập nhật nhân viên</h2>
 					<div class="table-responsive">
 						<form:form
-							action="/saturdayhigh/admin/employee/edit/${currentEmployee.ID}"
+							action="/invee/admin/employee/edit/${currentEmployee.ID}"
 							method="POST" modelAttribute="currentEmployee"
 							class="form-horizontal form-material">
 							<div class="col-md-6" style="float: left;">
@@ -92,7 +92,7 @@
 
 							<div class="col-md-12" style="float: left;">
 								<button type="submit" class="btn btn-dark">OK</button>
-								<a href="/saturdayhigh/admin/employee" class="btn btn-dark">Hủy</a>
+								<a href="/invee/admin/employee" class="btn btn-dark">Hủy</a>
 
 							</div>
 

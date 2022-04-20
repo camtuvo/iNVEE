@@ -5,7 +5,7 @@
 	<script>
 		document.write(new Date().getFullYear());
 	</script>
-	© by SaturdayHigh
+	© by Invee
 </footer>
 <!-- ============================================================== -->
 <!-- End footer -->

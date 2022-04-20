@@ -16,7 +16,7 @@
 				<div class="white-box">
 					<h2 class="box-title">Thêm mới sản phẩm</h2>
 					<div class="table-responsive">
-						<form:form action="/saturdayhigh/admin/product/add" method="POST"
+						<form:form action="/invee/admin/product/add" method="POST"
 							modelAttribute="product" class="form-horizontal form-material">
 							<div class="col-md-6" style="float: left;">
 
@@ -97,7 +97,7 @@
 
 							<div class="col-md-12" style="float: left;">
 								<button type="submit" class="btn btn-dark">OK</button>
-								<a href="/saturdayhigh/admin/product" class="btn btn-dark">Hủy</a>
+								<a href="/invee/admin/product" class="btn btn-dark">Hủy</a>
 
 							</div>
 

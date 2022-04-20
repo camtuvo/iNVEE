@@ -16,7 +16,7 @@
 				<div class="white-box">
 					<h2 class="box-title">Cập nhật thương hiệu</h2>
 					<div class="">
-						<form:form action="/saturdayhigh/admin/brand/edit/${currentBrand.ID}" method="POST"
+						<form:form action="/invee/admin/brand/edit/${currentBrand.ID}" method="POST"
 							modelAttribute="brand" class="form-horizontal form-material">
 							<div class="form-group mb-4">
 								<label class="col-md-12 p-0">Tên</label>
@@ -49,7 +49,7 @@
 							<div class="form-group mb-4">
 								<div class="col-sm-12">
 									<button type="submit" class="btn btn-dark">OK</button>
-									<a href="/saturdayhigh/admin/brand" class="btn btn-dark">Hủy</a>
+									<a href="/invee/admin/brand" class="btn btn-dark">Hủy</a>
 
 								</div>
 							</div>

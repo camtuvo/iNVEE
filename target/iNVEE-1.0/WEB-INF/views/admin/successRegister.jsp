@@ -10,7 +10,7 @@
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="description" content="" />
 <meta name="author" content="" />
-<title>Admin | SaturdayHigh</title>
+<title>Admin | invee</title>
 <link href="<c:url value='/template/admin/dist/css/styles.css'/>"
 	rel="stylesheet" />
 <link
@@ -22,7 +22,7 @@
 
 
 </head>
-<body class="bg-primary">
+<body class="bg-yellow">
 	<div id="layoutAuthentication">
 		<div id="layoutAuthentication_content">
 			<main>

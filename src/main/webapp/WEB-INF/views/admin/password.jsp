@@ -10,7 +10,7 @@
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="description" content="" />
 <meta name="author" content="" />
-<title>Page Title - SB Admin</title>
+<title> Admin - mật khẩu</title>
 <link href="<c:url value='template/admin/css/styles.css' />"
 	rel="stylesheet" />
 <script
@@ -18,7 +18,7 @@
 	crossorigin="anonymous"></script>
 
 </head>
-<body class="bg-primary">
+<body class="bg-yellow">
 	<div id="layoutAuthentication">
 		<div id="layoutAuthentication_content">
 			<main>
@@ -27,12 +27,12 @@
 						<div class="col-lg-5">
 							<div class="card shadow-lg border-0 rounded-lg mt-5">
 								<div class="card-header">
-									<h3 class="text-center font-weight-light my-4">Password
-										Recovery</h3>
+									<h3 class="text-center font-weight-light my-4">Ghi lại mật khẩu 
+										</h3>
 								</div>
 								<div class="card-body">
-									<div class="small mb-3 text-muted">Enter your email
-										address and we will send you a link to reset your password.</div>
+									<div class="small mb-3 text-muted">
+Nhập email của bạn địa chỉ và chúng tôi sẽ gửi cho bạn một liên kết để đặt lại mật khẩu của bạn.</div>
 									<form>
 										<div class="form-group">
 											<label class="small mb-1" for="inputEmailAddress">Email</label>
@@ -42,14 +42,14 @@
 										</div>
 										<div
 											class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
-											<a class="small" href="login.html">Return to login</a> <a
-												class="btn btn-primary" href="login.html">Reset Password</a>
+											<a class="small" href="login.html"> Về trang đăng nhập</a> <a
+												class="btn btn-primary" href="login.html">Đặt lại mật khẩu</a>
 										</div>
 									</form>
 								</div>
 								<div class="card-footer text-center">
 									<div class="small">
-										<a href="register.html">Need an account? Sign up!</a>
+										<a href="register.html">Cần một tài khoản? Đăng ký!</a>
 									</div>
 								</div>
 							</div>

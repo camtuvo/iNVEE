@@ -42,8 +42,8 @@
 										<td><c:if test="${ item.status == 1 }">Kích hoạt</c:if>
 										<c:if test="${ item.status == 0 }">Chưa kích hoạt</c:if>
 										</td>
-										<td><a href="/saturdayhigh/admin/employee-details/${item.ID}"><i class="fas fa-eye" aria-hidden="true"></i></a></td>
-										<td><a href="/saturdayhigh/admin/active/${item.ID}"><c:if test="${ item.status == 0 }">Kích hoạt</c:if></a></td>
+										<td><a href="/invee/admin/employee-details/${item.ID}"><i class="fas fa-eye" aria-hidden="true"></i></a></td>
+										<td><a href="/invee/admin/active/${item.ID}"><c:if test="${ item.status == 0 }">Kích hoạt</c:if></a></td>
 									</tr>
 								</c:forEach>
 							</tbody>

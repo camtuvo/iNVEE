@@ -17,7 +17,7 @@
 			<div class="col-lg-8 col-xlg-9 col-md-12">
                         <div class="card">
                             <div class="card-body">
-                                <form:form action="/saturdayhigh/admin/complete-bill/${idBill}" method="POST"
+                                <form:form action="/invee/admin/complete-bill/${idBill}" method="POST"
 				modelAttribute="bill" class="form-horizontal form-material">
                                     <div class="form-group mb-4">
                                         <label class="col-md-12 p-0">Nhập mã vận đơn:</label>
@@ -32,7 +32,7 @@
                                     <div class="form-group mb-4">
                                         <div class="col-sm-12">
                                             <button type="submit" class="btn btn-dark">OK</button>
-                                            <a href="/saturdayhigh/admin/order" class="btn btn-dark">Hủy</a>
+                                            <a href="/invee/admin/order" class="btn btn-dark">Hủy</a>
                                             
                                         </div>
                                     </div>

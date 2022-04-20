@@ -55,7 +55,7 @@
 										<td><c:if test="${item.status == 1 }">Hiển thị</c:if> <c:if
 												test="${item.status == 0 }">Ẩn</c:if></td>
 										<td><a
-											href="/saturdayhigh/admin/product-detail/${item.ID}"><i class="fas fa-eye" aria-hidden="true"></i></a></td>
+											href="/invee/admin/product-detail/${item.ID}"><i class="fas fa-eye" aria-hidden="true"></i></a></td>
 										<td><a class=""
 											href="<c:url value="product/edit/${item.ID}" />"><i
 												class=" far fa-edit" aria-hidden="true"></i> </a> <a class=""

@@ -17,7 +17,7 @@
 					<h2 class="box-title">Cập nhật slider</h2>
 					<div class="table-responsive">
 						<form:form
-							action="/saturdayhigh/admin/slide/edit/${currentSlider.ID}"
+							action="/invee/admin/slide/edit/${currentSlider.ID}"
 							method="POST" modelAttribute="slider"
 							class="form-horizontal form-material">
 							<div class="col-md-6" style="float: left;">
@@ -68,7 +68,7 @@
 
 							<div class="col-md-12" style="float: left;">
 								<button type="submit" class="btn btn-dark">OK</button>
-								<a href="/saturdayhigh/admin/slider" class="btn btn-dark">Hủy</a>
+								<a href="/invee/admin/slider" class="btn btn-dark">Hủy</a>
 
 							</div>
 

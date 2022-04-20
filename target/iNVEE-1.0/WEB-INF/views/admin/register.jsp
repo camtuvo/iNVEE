@@ -10,7 +10,7 @@
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="description" content="" />
 <meta name="author" content="" />
-<title>Admin | SaturdayHigh</title>
+<title>Admin | Đăng kí</title>
 <link href="<c:url value='/template/admin/dist/css/styles.css'/>"
 	rel="stylesheet" />
 <link
@@ -22,7 +22,7 @@
 
 
 </head>
-<body class="bg-primary">
+<body class="bg-re">
 	<div id="layoutAuthentication">
 		<div id="layoutAuthentication_content">
 			<main>
@@ -35,7 +35,7 @@
 										khoản</h3>
 								</div>
 								<div class="card-body">
-									<form:form action="/saturdayhigh/admin/register" method="POST"
+									<form:form action="/invee/admin/register" method="POST"
 										modelAttribute="user">
 										<div class="form-row">
 											<div class="col-md-12">
@@ -105,7 +105,7 @@
 											</div>
 											<div class="col-md-6">
 												<div class="form-group">
-													<label class="small mb-1" for="inputPassword">Password</label>
+													<label class="small mb-1" for="inputPassword">Mật Khẩu</label>
 													<input class="form-control py-4" id="inputPassword"
 														type="password" path="password" />
 												</div>
@@ -113,15 +113,15 @@
 
 										</div>
 										<div class="form-group mt-4 mb-0">
-											<input class="btn btn-primary btn-block" type="submit"
-												value="Create Account" />
+											<input class="btn btn-b btn-block" type="submit"
+												value="Tạo Tài Khoản" />
 										</div>
 									</form:form>
 								</div>
 								<div class="card-footer text-center">
 									<div class="small">
-										<a href="/saturdayhigh/admin/login">Have an account? Go to
-											login</a>
+										<a href="/invee/admin/login">
+Có một tài khoản? Đi đến đăng nhập</a>
 									</div>
 								</div>
 							</div>

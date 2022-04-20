@@ -17,18 +17,18 @@
                     <!-- ============================================================== -->
                     <!-- Logo -->
                     <!-- ============================================================== -->
-                    <a class="navbar-brand" href="/saturdayhigh/admin/homepage">
+                    <a class="navbar-brand" href="/invee/admin/homepage">
                         <!-- Logo icon -->
                         <b class="logo-icon">
                             <!-- Dark Logo icon -->
-                            <img src="<c:url value="/template/admin/plugins/images/logo-icon.png"/>" alt="homepage" />
+                            <img src="<c:url value="/template/admin/dist/assets/img/logo-iNVEE.png"/>" alt="homepage" />
                         </b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
-                        <span class="logo-text">
-                            <!-- dark Logo text -->
+<!--                        <span class="logo-text">
+                             dark Logo text 
                             <img src="<c:url value="/template/admin/plugins/images/logo.png"/>" alt="homepage" />
-                        </span>
+                        </span>-->
                     </a>
                     <!-- ============================================================== -->
                     <!-- End Logo -->
@@ -54,7 +54,7 @@
                         <!-- ============================================================== -->
                         <li class=" in">
                             <form role="search" class="app-search d-none d-md-block me-3">
-                                <input type="text" placeholder="Search..." class="form-control mt-0">
+                                <input type="text" placeholder="Tìm Kiếm..." class="form-control mt-0">
                                 <a href="" class="active">
                                     <i class="fa fa-search"></i>
                                 </a>
@@ -64,8 +64,8 @@
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
                         <li>
-                            <a class="profile-pic" href="/saturdayhigh/admin/profile">
-                                <img src="<c:url value="/template/admin/plugins/images/default/admin1.png"/>" alt="user-img" width="36"
+                            <a class="profile-pic" href="/invee/admin/profile">
+                                <img src="<c:url value="/template/admin/plugins/images/default/logo-green.png"/>" alt="user-img" width="36"
                                     class="img-circle"><span class="text-white font-medium">${ LoginInforOfAdmin.name }</span></a>
                         </li>
                         <!-- ============================================================== -->

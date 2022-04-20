@@ -10,7 +10,7 @@
 	content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <meta name="description" content="" />
 <meta name="author" content="" />
-<title>Admin | SaturdayHigh</title>
+<title>Admin | Đăng nhập</title>
 <link href="<c:url value='/template/admin/dist/css/styles.css'/>"
 	rel="stylesheet" />
 <link
@@ -22,7 +22,8 @@
 
 
 </head>
-<body class="bg-primary">
+<body class="bg-yellow">
+    
 	<div id="layoutAuthentication">
 		<div id="layoutAuthentication_content">
 			<main>
@@ -31,10 +32,10 @@
 						<div class="col-lg-5">
 							<div class="card shadow-lg border-0 rounded-lg mt-5">
 								<div class="card-header">
-									<h3 class="text-center font-weight-light my-4">SaturdayHigh</h3>
+									<h3 class="text-center font-weight-light my-4">INVEE</h3>
 								</div>
 								<div class="card-body">
-									<form:form action="/saturdayhigh/admin/login" method="POST"
+									<form:form action="/invee/admin/login" method="POST"
 										modelAttribute="user">
 										<div class="form-group">
 											<label class="small mb-1">Tài khoản</label>
@@ -43,23 +44,24 @@
 												path="username" pattern="^[a-z0-9_-]{3,50}$" />
 										</div>
 										<div class="form-group">
-											<label class="small mb-1">Password</label>
+											<label class="small mb-1">Mật khẩu</label>
 											<form:input class="form-control" id="inputPassword"
 												type="password" path="password"
 												 />
 										</div>
 
 										<div
-											class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
-											<a class="small">Quên mật khẩu?</a> <input type="submit"
-												class="btn btn-primary" value="Đăng nhập" />
+											class="form-group d-flex align-items-center justify-content-between mt-4 mb-0 ">
+<!--											<a class="small">Quên mật khẩu?</a>-->
+                                                                                        <input type="submit"
+												class="btn btn-b" value="Đăng nhập" />
 										</div>
 									</form:form>
 								</div>
 								<div class="card-footer text-center">
 									<div class="small">
-										<a href="/saturdayhigh/admin/register">Bạn cần tài khoản?
-											Đăng ký!</a>
+<!--										<a href="/invee/admin/register">Bạn cần tài khoản?
+											Đăng ký!</a>-->
 									</div>
 								</div>
 							</div>

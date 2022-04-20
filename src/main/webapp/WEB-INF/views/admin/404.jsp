@@ -49,7 +49,7 @@
 				<h3 class="text-uppercase error-subtitle">PAGE NOT FOUND !</h3>
 				<p class="text-muted mt-4 mb-4">YOU SEEM TO BE TRYING TO FIND
 					HIS WAY HOME</p>
-				<a href="/saturdayhigh/admin/homepage"
+				<a href="/invee/admin/homepage"
 					class="btn btn-danger btn-rounded waves-effect waves-light mb-5 text-white">Back
 					to home</a>
 			</div>

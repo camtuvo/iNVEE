@@ -45,7 +45,7 @@
 										<td>${item.email}</td>
 										<td>${ item.phone }</td>
 										
-										<td><a href="/saturdayhigh/admin/customer-details/${item.ID}"><i class="fas fa-eye" aria-hidden="true"></i></a></td>
+										<td><a href="/invee/admin/customer-details/${item.ID}"><i class="fas fa-eye" aria-hidden="true"></i></a></td>
 										<td><a class=""
 											href="<c:url value="customer/edit/${item.ID}" />"><i
 												class=" far fa-edit" aria-hidden="true"></i> </a> <a class=""
