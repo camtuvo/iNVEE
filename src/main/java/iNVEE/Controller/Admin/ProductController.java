@@ -40,14 +40,19 @@ public class ProductController extends BaseController {
             _mvShare.setViewName("redirect:/admin/login");
             return _mvShare;
         }
-
     }
 
     @RequestMapping(value = {"/admin/warehouse"})
-    public ModelAndView Warehouse() {
-        _mvShare.setViewName("admin/warehouse");
+    public ModelAndView Warehouse(HttpSession session) {
+        Users loginInfo = (Users) session.getAttribute("LoginInforOfAdmin");
+        if (loginInfo != null) {
+            _mvShare.setViewName("admin/warehouse");
         _mvShare.addObject("products", productServiceOfAdmin.GetDataProduct());
         return _mvShare;
+        } else {
+            _mvShare.setViewName("redirect:/admin/login");
+            return _mvShare;
+        }
     }
 
     @RequestMapping(value = {"/admin/warehouse/add/{id}"}, method = RequestMethod.GET)
