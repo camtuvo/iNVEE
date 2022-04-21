@@ -17,12 +17,8 @@
 					<h2 class="box-title">Danh sách khách hàng</h2>
 					<p>${Status}</p>
 					<div class="table-responsive">
-						<a href="<c:url value="customer/add"/>">
-							<button class="btn btn-cyan">
-								<i class="fas fa-plus" aria-hidden="true"></i> <span
-									class="hide-menu">Thêm mới</span>
-							</button>
-						</a>
+						
+                                            
 						<table class="table text-nowrap">
 							<thead>
 								<tr>

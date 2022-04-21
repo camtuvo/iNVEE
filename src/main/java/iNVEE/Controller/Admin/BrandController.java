@@ -12,12 +12,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 import iNVEE.Entity.Brands;
 import iNVEE.Service.Admin.BrandServiceOfAdminImpl;
-import iNVEE.Service.User.BrandServiceImpl;
 
 @Controller(value = "brandOfAdminController")
 public class BrandController extends BaseController {
-	@Autowired
-	private BrandServiceImpl BrandService;
 	@Autowired 
 	private BrandServiceOfAdminImpl BrandServiceOfAdmin;
 	

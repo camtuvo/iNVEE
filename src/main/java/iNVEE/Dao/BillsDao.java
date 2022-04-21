@@ -192,7 +192,7 @@ public class BillsDao extends BaseDao {
 
 	public int CompleteBill(Bills bill, String id, HttpSession session) {
 		Users loginInfo = (Users) session.getAttribute("LoginInforOfAdmin");
-		String sql = "UPDATE `orders` SET `ordernumber`='"+ bill.getOrdernumber() +"',status = 1, modifiedby='"+ loginInfo.getID() +"'"+  "',modifieddate ='" + getDateNow() +"' WHERE ID = '"+ id +"'";
+		String sql = "UPDATE `orders` SET `ordernumber`='"+ bill.getOrdernumber() +"',status = 1, modifiedby='"+ loginInfo.getID() +  "',modifieddate ='" + getDateNow() +"' WHERE ID = '"+ id +"'";
 		int check = _jdbcTemplate.update(sql);
 		
 		return check;

@@ -154,13 +154,7 @@
                                 <span class="hide-menu">Nhân viên</span>
                             </a>
                         </li>
-                         <li class="sidebar-item">
-                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<c:url value="/admin/decentralization" />"
-                                aria-expanded="false">
-                                <i class=" fas fa-key" aria-hidden="true"></i>
-                                <span class="hide-menu">Kích hoạt</span>
-                            </a>
-                        </li>
+
                         </c:if>
                         <li class="sidebar-item">
                             <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<c:url value="/admin/logout" />"

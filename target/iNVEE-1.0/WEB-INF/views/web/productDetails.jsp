@@ -61,7 +61,7 @@
                         </span> --%>
                     </p>
 
-                    <div class="widget size mb-50">
+<!--                    <div class="widget size mb-50">
                         <h6 class="widget-title">Size</h6>
                         <div class="widget-desc">
                             <ul id="size">
@@ -70,7 +70,7 @@
                                     </c:forEach>
                             </ul>
                         </div>
-                    </div>
+                    </div>-->
 
                     <div class="cart clearfix mb-50 d-flex">
                         <div class="quantity">

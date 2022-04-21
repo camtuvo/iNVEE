@@ -122,8 +122,7 @@ public class CartController extends BaseController {
 			session.removeAttribute("TotalQuantityCart");
 			_mvShare.setViewName("redirect:/success");
 			return _mvShare;
-		} catch (Exception e) {
-			
+		} catch (Exception e) {	
 			_mvShare.addObject("status","Số lượng mua lớn hơn trong kho!");
 			_mvShare.setViewName("web/cart");
 			return _mvShare;

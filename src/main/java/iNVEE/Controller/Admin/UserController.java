@@ -1,6 +1,5 @@
 package iNVEE.Controller.Admin;
 
-import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,10 +10,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import iNVEE.Entity.Categories;
 import iNVEE.Entity.Users;
 import iNVEE.Service.Admin.UserServiceOfAdminImpl;
-import iNVEE.Service.User.AccountServiceImpl;
 
 @Controller(value = "userOfAdminController")
 public class UserController extends BaseController {

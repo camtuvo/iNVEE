@@ -19,7 +19,7 @@
 		</filter-class>
 		<init-param>
 			<param-name>contextConfigLocaltion</param-name>
-			<param-value>/WEB-INF/saturdayhigh-config-servlet.xml</param-value>
+			<param-value>/WEB-INF/invee-config-servlet.xml</param-value>
 		</init-param>
 	</filter>
 
